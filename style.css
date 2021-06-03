@@ -1,0 +1,38 @@
+body {
+	font-family: 'Helvetica', sans-serif;
+	color: #004b87;
+}
+
+h1 {
+	text-align: center;
+	font-size: 38px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 34px;
+	font-style: italic;
+}
+
+table {
+	margin-left: auto;
+  margin-right: auto;
+	border: 5pt solid;
+}
+
+th, td {
+	border: 1pt solid;
+}
+
+a:link {
+	color: #FF0000;
+}
+
+a:visited {
+	color: #FF7C7C;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
