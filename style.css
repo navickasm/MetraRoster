@@ -3,6 +3,11 @@ body {
 	color: #004b87;
 }
 
+.ucNotification{
+	color: #ffffff;
+	background-color: #FF0000;
+}
+
 h1 {
 	text-align: center;
 	font-size: 38px;
