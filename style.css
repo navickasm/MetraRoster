@@ -1,11 +1,11 @@
 body {
 	font-family: 'Helvetica', sans-serif;
-	color: #004b87;
+	color: #006ec7;
 }
 
 .ucNotification{
 	color: #ffffff;
-	background-color: #FF0000;
+	background-color: #ee3424;
 }
 
 h1 {
@@ -30,11 +30,11 @@ th, td {
 }
 
 a:link {
-	color: #FF0000;
+	color: #ee3424;
 }
 
 a:visited {
-	color: #FF7C7C;
+	color: #cb5348;
 }
 
 img {
