@@ -6,8 +6,4 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
-.idea/vcs.xml
-.idea/MetraRoster.iml
-.idea/misc.xml
-.idea/modules.xml
-.idea/workspace.xml
+.idea/*
