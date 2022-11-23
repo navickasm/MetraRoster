@@ -1,0 +1,62 @@
+{
+  "METX": {
+    "1": {
+      "locoType": "SW1",
+      "imgPath": "./img/METX/METX1.jpg",
+      "imgURL": "http://rrpicturearchives.net/showPicture.aspx?id=2085594",
+      "takenBy": "Robby Gragg",
+      "takenIn": "Blue Island, Illinois",
+      "takenDate": "4 December 2011",
+      "builtBy": "EMD",
+      "builtIn": "LaGrange, Illinois",
+      "builtDate": "1939",
+      "heritage": "Originally Built as IC 9016 and renamed to IC 602. Formerly <a href=\"?r=RI&n=4801\">RI 4801</a>. Before Metra, it operated as <a href=\"?r=NIRC&n=1\">NIRC 1</a>. Auctioned to LTE, now <a href=\"?r=LTEX&n=1 (EMD 983)\">LTEX 1</a>.",
+      "serial": "EMD 983",
+      "orderNo": "E284",
+      "outOfService": "Engine failure"
+    },
+    "2": {
+      "locoType": "SW1",
+      "imgPath": "./img/METX/METX2.jpg",
+      "imgURL": "http://rrpicturearchives.net/showPicture.aspx?id=3210975",
+      "takenBy": "Ken Carlson",
+      "takenIn": "Blue Island, Illinois",
+      "takenDate": "8 June 2012",
+      "builtBy": "EMD",
+      "builtIn": "LaGrange, Illinois",
+      "builtDate": "June 1946",
+      "heritage": "Originally Built as IC 9025 and renamed to IC 610. Formerly <a href=\"AltPaints/CRIP4804.html\">CRIP 4804</a>. Before Metra, it operated as <a href=\"AltPaints/NIRC2.html\">NIRC 2</a>.",
+      "serial": "EMD 3293",
+      "orderNo": "E668"
+    }
+  },
+  "NIRC": {
+    "1": {
+      "locoType": "SW1",
+      "imgPath": "./img/Other/NIRC1.jpg",
+      "imgURL": "http://www.rrpicturearchives.net/showPicture.aspx?id=5553452",
+      "takenBy": "James Marcus",
+      "takenIn": "Chicago, Illinois",
+      "takenDate": "22 November 1982",
+      "heritage": "Before Metra was established, the RTA used the Northeast Illinois Railroad Corporation (NIRC) as equipment owners, hence this temporary paint scheme."
+    }
+  },
+  "RI": {
+    "4801": {
+      "locoType": "SW1",
+      "imgPath": "./img/Other/RI4801.jpg",
+      "imgURL": "https://railpictures.net/viewphoto.php?id=120335",
+      "takenBy": "Douglas Walker",
+      "takenIn": "Chicago, Illinois",
+      "takenDate": "4 July 1976",
+      "heritage": "Former railroad Rock Island switcher operating on jobs in Chicago."
+    }
+  },
+  "LTEX": {
+    "1 (EMD 983)": {
+      "locoType": "SW1",
+      "imgPath": "CS",
+      "heritage": "After an internal failure, METX 1 was auctioned off to Larry's Truck and Electric for $45,000."
+}
+  }
+}

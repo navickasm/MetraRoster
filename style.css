@@ -3,11 +3,6 @@ body {
 	color: #006ec7;
 }
 
-.ucNotification{
-	color: #ffffff;
-	background-color: #ee3424;
-}
-
 h1 {
 	text-align: center;
 	font-size: 38px;
@@ -38,6 +33,11 @@ a:visited {
 }
 
 img {
-	max-width: 100%;
-	height: auto;
+	max-width: 95vw;
+	max-height: 95vh;
+}
+
+p {
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
 }

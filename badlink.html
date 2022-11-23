@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bad Link | Metra Photographic Roster</title>
+	<style>body{font-family:Helvetica,sans-serif;color:#004b87}h1{text-align:center;font-size:38px}h2{text-align:center;font-size:34px;font-style:italic}table{margin-left:auto;margin-right:auto;border:5pt solid}td,th{border:1pt solid}a:link{color:red}a:visited{color:#ff7c7c}img{max-width:100%;height:auto}</style>
+</head>
+<body>
+	<h1>Metra Photographic Roster</h1>
+	<h2>Bad Link</h2>
+	<p id="mainPara">The locomotive referenced is not contained in the Metra Locomotive Roster database.</p>
+	<ul>
+		<li>
+			<a href="index.html">Go back to the home page</a>
+		</li>
+		<li>
+			<a id="report" href="https://github.com/AbyssStudios/MetraRoster/issues/new?labels=broken+link&title=JSON+error&body=">Report this bug for us to fix it</a>
+		</li>
+	</ul>
+	<p>Thanks for visiting Metra Locomotive Roster!</p>
+	<script>
+		const r = new URLSearchParams(window.location.search).get("r"); // Reporting mark
+		const n = new URLSearchParams(window.location.search).get("n"); // Loco number (can have numbers)
+
+		document.getElementById("mainPara").innerHTML = "The locomotive referenced (" + r + " " + n + ") is not contained in the Metra Locomotive Roster database."
+
+		document.getElementById("report").href = "https://github.com/AbyssStudios/MetraRoster/issues/new?labels=broken+link&title=JSON+error&body=Error fetching locomotive " + r + n + " from database.";
+	</script>
+</body>
+</html>

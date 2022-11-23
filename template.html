@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>ID | Metra Photographic Roster</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+	<h1 id="mainHead">ID: Type</h1>
+
+	<a id="imgURL" href=""><img id="imgPath" alt="ID"></a>
+	<div id="issuebox" style="display: none;"></div>
+
+	<br id="photoBreakA">
+	
+	<p id="takenBy">Photo Taken by </p>
+	<p id="takenIn">PlaceTaken, Illinois</p>
+	<p id="takenDate">Date Taken</p>
+	
+	<br id="photoBreakB">
+	
+	<p id="builtByIn">Built by  in </p>
+	<p id="builtDate">Built in </p>
+	<p id="heritage">Formerly , Originally Built as .</p>
+	<p id="serial">Serial: </p>
+	<p id="order">Order No. </p>
+	
+	<br id="otherNotesBreak">
+	
+	<p id="otherNotes">Other Notes</p>
+	
+	<p id="outOfService" style="font-style: italic;">Out of service: </p>
+	
+	<hr>
+	
+	<p>Return to <a href="./index.html">Roster</a>.</p>
+
+	<script type="module">
+		import roster from './roster.json' assert { type: "json" };
+
+		const r = new URLSearchParams(window.location.search).get("r"); // Reporting mark
+		const n = new URLSearchParams(window.location.search).get("n"); // Loco number (can have numbers)
+		const sop = new URLSearchParams(window.location.search).get("stayOnPage")
+
+		if (r == null || n == null) {
+			if (sop == null) {
+				window.location.replace("./index.html");
+			}
+		} else if (roster?.[r]?.[n] === undefined) {
+			window.location.replace("./badlink.html?r=" + r + "&n=" + n);
+		}
+	</script>
+
+	<script type="module" src="./gen.js"></script>
+</body>
+</html>
