@@ -1,0 +1,27 @@
+imgPath: path of image in file directory
+    NLP: No licensable photos
+    CS: Coming soon
+    undefined: Remove entire photo block
+
+imgURL: URL to source of image
+
+takenBy: Name of photo taker
+    ANON: Photo taken anonymously
+
+takenDate: Date on which the photo was taken
+
+builtBy: Name of loco builder (i.e. EMD)
+
+builtIn: Location of building
+
+builtDate: Date on whch loco was built
+
+heritage: Text about heritage
+
+serial
+
+orderNo
+
+otherNotes: Other notes about locomotive, displayed separately
+
+outOfService: "Out of service: " + reason why
