@@ -65,7 +65,7 @@
       "builtDate": "August 1967",
       "heritage": "Originally built as <a href=\"AltPaints/SP2643.html\">SP 2476</a>. Appears to be retired but on Metra roster as of November 2021.",
       "serial": "33136",
-      "orderNo": "7997",
+      "orderNo": "7997"
     },
     "6": {
       "locoType": "SW1500",
@@ -78,7 +78,7 @@
       "heritage": "Originally built as INLX 120.",
       "serial": "34111",
       "orderNo": "7115",
-      "outOfService": "",
+      "outOfService": ""
     },
     "205": {
       "locoType": "F40PHM-2",
