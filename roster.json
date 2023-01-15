@@ -58,7 +58,6 @@
     "5": {
       "locoType": "SW1500",
       "imgPath": "./img/METX/METX5.jpg",
-      "imgURL":"google.com",
       "takenBy": "312Trains",
       "takenIn": "Western Avenue Yard, Illinois",
       "takenDate": "6 August 2022",
@@ -71,7 +70,6 @@
     "6": {
       "locoType": "SW1500",
       "imgPath": "./img/METX/METX6.jpg",
-      "imgURL":"google.com",
       "takenBy": "312Trains",
       "takenIn": "Western Avenue Yard, Illinois",
       "takenDate": "6 August 2022",

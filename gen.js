@@ -51,7 +51,7 @@ switch (loco.imgPath) {
         if (loco.imgURL !== undefined) {
             document.getElementById("imgURL").href = loco.imgURL;
         } else {
-            document.getElementById("imgURL").remove();
+            document.getElementById("imgURL").outerHTML = document.getElementById("imgURL").innerHTML;
         }
         document.getElementById("imgPath").src = loco.imgPath;
         document.getElementById("imgPath").alt = r + " " + n;
