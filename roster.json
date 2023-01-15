@@ -28,6 +28,73 @@
       "heritage": "Originally Built as IC 9025 and renamed to IC 610. Formerly <a href=\"AltPaints/CRIP4804.html\">CRIP 4804</a>. Before Metra, it operated as <a href=\"AltPaints/NIRC2.html\">NIRC 2</a>.",
       "serial": "EMD 3293",
       "orderNo": "E668"
+    },
+    "3": {
+      "locoType": "SW1200",
+      "imgPath": "./img/METX/METX3.jpg",
+      "imgURL": "http://www.rrpicturearchives.net/showPicture.aspx?id=3159396",
+      "takenBy": "Steven McKay",
+      "takenIn": "Chicago, Illinois",
+      "takenDate": "21 June 2012",
+      "builtBy": "EMD",
+      "builtDate": "November 1954",
+      "heritage": "Formerly <a href=\"AltPaints/MILW600.html\">MILW 600</a>, originally built as MILW 2048. Before Metra, it operated as <a href=\"AltPaints/NIRC3.html\">NIRC 3</a>.",
+      "serial": "EMD 4284",
+      "orderNo": "20041"
+    },
+    "4": {
+      "locoType": "SW1500",
+      "imgPath": "./img/METX/METX4.jpg",
+      "imgURL": "http://rrpicturearchives.net/showPicture.aspx?id=4539126",
+      "takenBy": "Bob Keenan",
+      "takenIn": "Blue Island, Illinois",
+      "takenDate": "21 August 2016",
+      "builtBy": "EMD",
+      "builtDate": "May 1972",
+      "heritage": "Originally built as <a href=\"AltPaints/SP2643.html\">SP 2643</a>. Appears to be retired but on Metra roster as of November 2021.",
+      "serial": "4608-53",
+      "orderNo": "4608"
+    },
+    "5": {
+      "locoType": "SW1500",
+      "imgPath": "./img/METX/METX5.jpg",
+      "takenBy": "312Trains",
+      "takenIn": "Western Avenue Yard, Illinois",
+      "takenDate": "6 August 2022",
+      "builtBy": "EMD",
+      "builtDate": "August 1967",
+      "heritage": "Originally built as <a href=\"AltPaints/SP2643.html\">SP 2476</a>. Appears to be retired but on Metra roster as of November 2021.",
+      "serial": "33136",
+      "orderNo": "7997",
+      "license": "PD"
+    },
+    "6": {
+      "locoType": "SW1500",
+      "imgPath": "./img/METX/METX6.jpg",
+      "takenBy": "312Trains",
+      "takenIn": "Western Avenue Yard, Illinois",
+      "takenDate": "6 August 2022",
+      "builtBy": "EMD",
+      "builtDate": "July 1968",
+      "heritage": "Originally built as INLX 120.",
+      "serial": "34111",
+      "orderNo": "7115",
+      "outOfService": "",
+      "license": "PD"
+    },
+    "205": {
+      "locoType": "F40PHM-2",
+      "imgPath": "./img/METX/METX205.jpg",
+      "imgURL": "http://bkeenan.rrpicturearchives.net/showPicture.aspx?id=4539126",
+      "takenBy": "Bob Keenan",
+      "takenIn": "Aurora, Illinois",
+      "takenDate": "27 October 2012",
+      "builtBy": "EMD",
+      "builtIn": "LaGrange, Illinois",
+      "builtDate": "August 1992",
+      "heritage": "Originally built as RTA 205 for Metra. Scrapped on the scene of a 2018 CSX derailment en route to Patterson, Georgia for a rebuild to F40PHM-3.",
+      "serial": "896065-21",
+      "orderNo": "896065"
     }
   },
   "NIRC": {
